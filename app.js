@@ -13,8 +13,8 @@ class Casino {
             console.log(`Player wins ${betAmount*(this.timesPlayed + 1)}`)
         }
     }
-    rollDie() {
-        
+    rollDie(side) {
+        console.log(Math.floor(Math.random() * side + 1 )) 
     }
 }
 
